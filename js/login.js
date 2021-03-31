@@ -4,7 +4,19 @@ var obj=[
         password:"1234"
     },
     {
-        username:"abi",
+        username:"abhinav",
+        password:"1234"
+    },
+    {
+        username:"jishnu",
+        password:"1234"
+    },
+    {
+        username:"aswanth",
+        password:"1234"
+    },
+    {
+        username:"sibi",
         password:"1234"
     },
     {
@@ -12,31 +24,19 @@ var obj=[
         password:"1234"
     },
     {
-        username:"abi",
+        username:"shijin",
         password:"1234"
     },
     {
-        username:"abi",
+        username:"jiju",
         password:"1234"
     },
     {
-        username:"abi",
+        username:"sourav",
         password:"1234"
     },
     {
-        username:"abi",
-        password:"1234"
-    },
-    {
-        username:"abi",
-        password:"1234"
-    },
-    {
-        username:"abi",
-        password:"1234"
-    },
-    {
-        username:"abi",
+        username:"jishil",
         password:"1234"
     }
    
