@@ -49,6 +49,7 @@ function validate(){
     for(i=0;i<obj.length;i++){
         if(username == obj[i].username && password == obj[i].password){
             localStorage.setItem("login", "true");
+            localStorage.setItem("username", username);
             window.location.href = "main.html";
             return
         }
