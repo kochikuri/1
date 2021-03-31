@@ -1,32 +1,17 @@
+
 <!DOCTYPE html>
 <html>
 <head>
+     <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/login.js"></script>
     <title>fincorp</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style type="text/css">
-      .a1{border-radius:50px;
-        background-color: #1db954;
-        padding:15px;
-        color: white;
-        font-weight: 800;
-      }
-      .a{
-        text-decoration: none;
-        text-align: center;
-        margin: 100px;
-      }
-    </style>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 </head>
-<body style="background:black;">
-
-
-
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">KOCHIKURI</a>
+<body style="background:#2ACAC0;">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><h3>KOCHIKURI</h3></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -68,13 +53,14 @@
 
 
 
+<!--form with post method add csrf auth-->
+<form action="main" method="post" style="margin-top:100px; margin-left:300px; margin-right:300px;">
 
 
-   
     
 
-
-  <h4 class="a"><a href="main.html" class="a1" style="text-decoration: none;">Continue.  !</a> </h4>
+<div class="alert alert-success" role="alert">
+  <h4 class="alert-heading">Login  !</h4>
   <p></p>
   <hr>
   
@@ -84,17 +70,23 @@
 
 
 
+  <div class="form-group">
+    <label for="exampleInputEmail1">UserName</label>
+    <input type="text" class="form-control"  aria-describedby="emailHelp" placeholder="Enter username" name="username" id="username">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control"  placeholder="Password" name="password"  id="password">
+  </div>
+  
+  <input type="button" class="btn btn-primary" value="Login" id="submit" onclick="validate()"/>
+  
+  </form>
 
-
-
-
-
-
-
-
-
-
-
+  <a href="#"><p class="mb-0">Forgot password? </p></a>
+  <a href="#"><p class="mb-0">Create New Account</p></a>
+ 
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
