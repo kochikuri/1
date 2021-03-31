@@ -1,7 +1,9 @@
+
 <!DOCTYPE html>
 <html>
 <head>
     <title>fincorp</title>
+    <script src="js/login.js"></script>
     <style type="text/css">
       .welcome{
         margin: 100px;
@@ -37,7 +39,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
-<body style="background:#007a99;">
+<body style="background:#007a99;" onload="check()">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#"><h3>KOCHIKURI</h3></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -75,8 +77,11 @@
 </nav>
 
 
+
+
 <div style="text-align:right; margin-top: 50px; margin-right: 20px;">
   <button type="button" class="btn btn-danger" ><a href="info.html" style= "text-decoration: none; color:white;">ACCOUNT SUMMERY</a></button>
+  <button class="btn btn-dark" onclick="logout()">logout</button>
 </div>
 <h3  class="h33";>Account Details</h3> 
 
@@ -112,13 +117,13 @@ style="margin-top:50px; ">
       <td>Aswanth</td>
 
       <!--  Account pending-->
-      <td>10000</td>
+      <td>1000</td>
 
       <!--  Account fine-->
-      <td>100</td>
+      <td>50</td>
 
       <!--  Account Amount-->
-       <td>18000</td>
+       <td>8000</td>
     </tr>
 
 
