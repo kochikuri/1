@@ -32,6 +32,16 @@
         padding:20px;
         margin-right: 800px;
       }
+      .user{
+        display: flex;
+        margin-left: auto;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        color:white;
+        background-color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+     
      
     
     </style>
@@ -83,6 +93,17 @@
   <button type="button" class="btn btn-danger" ><a href="info.html" style= "text-decoration: none; color:white;">ACCOUNT SUMMERY</a></button>
   <button class="btn btn-dark" onclick="logout()">logout</button>
 </div>
+
+
+
+<div class="user" >
+  <h5>Welcome mr.</h5>
+  <h5 id="demo"></h5>
+  <script>
+    document.getElementById("demo").innerHTML = localStorage.getItem("username");
+    </script>
+</div>
+
 <h3  class="h33";>Account Details</h3> 
 
 
