@@ -70,8 +70,9 @@ function validate(){
 }
 function check(){
     if(localStorage.getItem("login")==("true")){
-        console.log("sucess run run")
-        window.setTimeout(logout,10000);
+        console.log("sucess run")
+        setTimeout("location.reload(true);", 10000);
+        window.setTimeout(logout,30000);
         }
         else{
             window.location.href = "index.html";
