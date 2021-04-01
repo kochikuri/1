@@ -61,7 +61,6 @@ function validate(){
         if(phone == obj[i].phone && password == obj[i].password){
             localStorage.setItem("login", "true");
             localStorage.setItem("username", obj[i].username);
-            window.setTimeout(logout,10000);
             window.location.href = "main.html";
             return
         }
@@ -72,7 +71,7 @@ function validate(){
 function check(){
     if(localStorage.getItem("login")==("true")){
         console.log("sucess run")
-        
+        window.setTimeout(logout,10000);
         }
         else{
             window.location.href = "index.html";
