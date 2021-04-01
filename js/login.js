@@ -53,14 +53,14 @@ var obj=[
    
 ]
 function validate(){
-    var username=document.getElementById("username").value
+    var phone=document.getElementById("phone").value
     var password=document.getElementById("password").value
     
 
     for(i=0;i<obj.length;i++){
-        if(username == obj[i].username && password == obj[i].password){
+        if(phone == obj[i].phone && password == obj[i].password){
             localStorage.setItem("login", "true");
-            localStorage.setItem("username", username);
+            localStorage.setItem("username", obj[i].username);
             window.location.href = "main.html";
             return
         }
