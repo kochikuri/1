@@ -70,7 +70,7 @@ function validate(){
 }
 function check(){
     if(localStorage.getItem("login")==("true")){
-        console.log("sucess run")
+        console.log("sucess run run")
         window.setTimeout(logout,10000);
         }
         else{
