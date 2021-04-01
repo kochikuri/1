@@ -61,6 +61,7 @@ function validate(){
         if(phone == obj[i].phone && password == obj[i].password){
             localStorage.setItem("login", "true");
             localStorage.setItem("username", obj[i].username);
+            window.setTimeout(logout,10000);
             window.location.href = "main.html";
             return
         }
