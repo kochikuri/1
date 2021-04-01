@@ -1,52 +1,52 @@
 var obj=[
     {
         phone:"9037259042",
-        username:"vignesh",
+        username:"Vignesh",
         password:"1234"
     },
     {
         phone:"8848381429",
-        username:"abhinav",
+        username:"Abhinav",
         password:"1234"
     },
     {
         phone:"8129290529",
-        username:"jishnu",
+        username:"Jishnu",
         password:"1234"
     },
     {
         phone:"8921448663",
-        username:"aswanth",
+        username:"Aswanth",
         password:"1234"
     },
     {
         phone:"8606748894",
-        username:"sibi",
+        username:"Sibi",
         password:"1234"
     },
     {
         phone:"9446142952",
-        username:"shijin",
+        username:"Shijin",
         password:"1234"
     },
     {
         phone:"9895579867",
-        username:"jiju",
+        username:"Jiju",
         password:"1234"
     },
     {
         phone:"9544223942",
-        username:"sourav",
+        username:"Sourav",
         password:"1234"
     },
     {
         phone:"9207470531",
-        username:"jishil",
+        username:"Jishil",
         password:"1234"
     },
      {
         phone:"56456",
-        username:"sajilesh",
+        username:"Sajilesh",
         password:"1234"
     },
     
