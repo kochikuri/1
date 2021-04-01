@@ -71,11 +71,11 @@ function validate(){
 function check(){
     if(localStorage.getItem("login")==("true")){
         console.log("sucess run")
-        setTimeout("location.reload(true);", 5);
+        setTimeout("location.reload(true);", 20);
         }
         else{
             window.location.href = "index.html";
-            setTimeout("location.reload(true);", 5);
+            setTimeout("location.reload(true);", 20);
         }
     }
 
