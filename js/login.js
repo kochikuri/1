@@ -95,7 +95,7 @@ function logout()
 
 
 function status() {
-  if (confirm(localStorage.getItem("username")+" are you want to logout)) {
+  if (confirm(localStorage.getItem("username")+" are you want to logout")) {
     logout();
   } 
 }
