@@ -80,17 +80,24 @@ function check(){
            
         }
     }
-function status()
-{
- console.log("alert executed");
-alert(localStorage.getItem("username")+" please logout after use")
-}
+// function status()
+// {
+//  console.log("alert executed");
+// alert(localStorage.getItem("username")+" please logout after use")
+// }
 function logout()
 {
     console.log("logout executed");
     window.location.href = "index.html";
     localStorage.clear();
                 
+}
+
+
+function status() {
+  if (confirm(localStorage.getItem("username")+" are you want to logout)) {
+    logout();
+  } 
 }
 
 
