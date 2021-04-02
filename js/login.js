@@ -83,7 +83,7 @@ function check(){
 function status()
 {
  console.log("alert executed");
-alert(localStorage.getItem("username")+"please logout after use")
+alert(localStorage.getItem("username")+" please logout after use")
 }
 function logout()
 {
