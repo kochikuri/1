@@ -73,6 +73,7 @@ function check(){
         console.log("sucess run again")
         setTimeout("location.reload(true);", 30000);
         window.setTimeout(status,10000);
+        window.setTimeout(logout,60000);
         }
         else{
             window.location.href = "index.html";
