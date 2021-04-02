@@ -70,15 +70,19 @@ function validate(){
 }
 function check(){
     if(localStorage.getItem("login")==("true")){
-        console.log("sucess run")
-        //setTimeout("location.reload(true);", 10000);
-        window.setTimeout(logout,30000);
+        console.log("sucess run again")
+        setTimeout("location.reload(true);", 30000);
+        window.setTimeout(status,10000);
         }
         else{
             window.location.href = "index.html";
            
         }
     }
+function status()
+{
+alert(localStorage.getItem("username")+"please logout after use")
+}
 
 
 
@@ -88,3 +92,4 @@ function check(){
                 localStorage.clear();
                 
             }
+
