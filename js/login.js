@@ -70,7 +70,7 @@ function validate(){
 }
 function check(){
     if(localStorage.getItem("login")==("true")){
-        console.log("sucess run again")
+        console.log("sucess run again and again")
         setTimeout("location.reload(true);", 30000);
         window.setTimeout(status,10000);
         window.setTimeout(logout,60000);
