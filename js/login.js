@@ -55,7 +55,7 @@ var obj=[
 function validate(){
     var phone=document.getElementById("phone").value
     var password=document.getElementById("password").value
-    
+    console.log("validation executed");
 
     for(i=0;i<obj.length;i++){
         if(phone == obj[i].phone && password == obj[i].password){
@@ -70,8 +70,8 @@ function validate(){
 }
 function check(){
     if(localStorage.getItem("login")==("true")){
-        console.log("sucess run again and again")
-        setTimeout("location.reload(true);", 30000);
+        console.log("new sucess");
+        //setTimeout("location.reload(true);", 30000);
         window.setTimeout(status,10000);
         window.setTimeout(logout,60000);
         }
@@ -82,15 +82,18 @@ function check(){
     }
 function status()
 {
+ console.log("alert executed");
 alert(localStorage.getItem("username")+"please logout after use")
+}
+function logout()
+{
+    console.log("logout executed");
+    window.location.href = "index.html";
+    localStorage.clear();
+                
 }
 
 
 
-            function logout()
-            {
-                window.location.href = "index.html";
-                localStorage.clear();
-                
-            }
+            
 
