@@ -71,9 +71,12 @@ function validate(){
 function check(){
     if(localStorage.getItem("login")==("true")){
         console.log("new sucess");
-        setTimeout("location.reload(true);", 10000);
+        //setTimeout("location.reload(true);", 10000);
         //window.setTimeout(status,10000);
         window.setTimeout(logout,60000);
+        setInterval(function(){  if (confirm(localStorage.getItem("username")+" are you want to logout")) {
+        logout(); } }, 10000);
+
         }
         else{
             window.location.href = "index.html";
