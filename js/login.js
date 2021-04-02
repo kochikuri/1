@@ -71,8 +71,8 @@ function validate(){
 function check(){
     if(localStorage.getItem("login")==("true")){
         console.log("new sucess");
-        //setTimeout("location.reload(true);", 30000);
-        window.setTimeout(status,10000);
+        setTimeout("location.reload(true);", 10000);
+        //window.setTimeout(status,10000);
         window.setTimeout(logout,60000);
         }
         else{
